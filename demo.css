@@ -1,0 +1,174 @@
+body{
+ background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  -ms-flex-align: center;
+  display: -ms-flexbox;
+  margin: auto;
+  font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+}
+.box{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  box-shadow: 0px 0px 50px 5px;
+}
+.new{
+  list-style: none;
+}
+
+.new li{
+  display: inline-flex;
+  padding: 0px 30px 0px 0px;
+
+}
+hr{
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  border-top: 1px solid #8c8b8b;
+	border-bottom: 1px whitesmoke;
+  position: relative;
+  box-shadow: 0px 2px 5px 0px;
+}
+container{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+.bike{
+  width: 60%;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+}
+#myImage{
+  margin: 0;
+  width: 70%;
+}
+#myImage .bike img{
+  transition: all 0.5s;
+}
+.bike li{
+    border: 1px solid lightgrey;
+    display: inline-block;
+}
+#images{
+  float: left;
+  padding: 15px;
+  margin: auto;
+}
+.new li .fa-lg{
+  font-size: 16px;
+  padding: 3px;
+}
+#righ_flo{
+ float: left;
+  margin: auto;
+  padding: 15px;
+  width: auto;
+  height: auto;
+}
+.side{
+  padding: 0;
+}
+.side li{
+  display: inline-flex;
+  list-style: none;
+  padding-right: 50px;
+  color: gray;
+  font: bold;
+}
+.rate{
+  width: 50%;
+  border-radius: 20px;
+  position: relative;
+  padding: 0;
+}
+.rate1{
+  background: lightyellow;
+}
+span{
+ background-color: yellow;
+    height: 15px;
+  display: block;
+  width: 70%;
+  animation: prog 5s linear;
+  border-radius: 20px;
+}
+container h2{
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.check{
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  background-color: red;
+  border-radius: 5px;
+  margin: 80px 150px;
+  position: absolute;
+  color: white;
+}
+.check:hover{
+  cursor: pointer;
+}
+@keyframes prog{
+  0%{width:0%}
+  70%{width:70%;}
+}
+.ani{
+  padding: 0px 20%;
+  display: inline-flex;
+}
+.ani button{
+  padding: 7px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  font: bold;
+  background-color: white;
+}
+
+.bt1{
+  padding: 0px;
+  margin: 0px;
+}
+.ani button:hover,button:focus{
+  background-color: lightgray;
+  cursor:pointer;
+}
+.ani button:focus{
+  background-color: lightgray;
+    outline-offset: -4px;
+}
+.ani button:active{
+  transform: scale(0.99);
+}
+.bike li:hover,li:focus{
+  color: lightblue;
+  cursor: pointer;
+}
+.bike li:focus{
+  color: lightblue;
+    outline-offset: -4px;
+}
+.bike li:active{
+  transform: scale(0.99);
+}
+.no{
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-bottom: 3px solid red;;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  padding: 0px;
+  margin: -8px 0px;
+}
