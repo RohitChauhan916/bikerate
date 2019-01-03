@@ -91,7 +91,7 @@ container{
 .rate1{
   background: lightyellow;
 }
-span{
+.rate1 span{
  background-color: yellow;
     height: 15px;
   display: block;
